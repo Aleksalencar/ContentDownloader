@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203b1478-77b6-4888-a753-2a5b8c4f8d53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/AnimePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/SearchPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/ZippysharePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/DownloadAnime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/DownloadZip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/ListarZip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/SearchAnime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste].py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdriver/Driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZippyShare/Zippy.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZippyShare/Zippy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZippyShare/Zippy.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +31,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WS9jehC1QFYMr4WT0MnpyWuj47" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aleksander\PycharmProjects\AnimeDownloader\webdriver" />
+      <recent name="C:\Users\Aleksander\PycharmProjects\AnimeDownloader" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -38,7 +55,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Zippy">
+  <component name="RunManager" selected="Python.SearchAnime">
+    <configuration name="AnimePage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AnimeDownloader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_objects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_objects/AnimePage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DownloadAnime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AnimeDownloader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/DownloadAnime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchAnime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AnimeDownloader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/SearchAnime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Zippy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AnimeDownloader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="service" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="teste]" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AnimeDownloader" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/common/service.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste].py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,8 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SearchAnime" />
+        <item itemvalue="Python.DownloadAnime" />
+        <item itemvalue="Python.AnimePage" />
+        <item itemvalue="Python.teste]" />
         <item itemvalue="Python.Zippy" />
-        <item itemvalue="Python.service" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +189,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
