@@ -1,12 +1,15 @@
 class Search:
-    def __init__(self,driver, key):
+    def __init__(self,driver):
         self.driver = driver
-        self.driver.get('https://www.anbient.com/search?search_api_views_fulltext='+key)
+        self.base_URL = 'https://www.anbient.com/search?search_api_views_fulltext='
+        self.driver.get(self.base_URL+'djhwaiojdoiawiodjioawjdouihaowhd')
+
+    def search(self,key):
+        self.driver.get(self.base_URL+key)
 
     def list_result(self):
         results = self.driver.find_elements_by_xpath('//header/h2/a')
         content = self.get_content(results)
-        print(content)
         return content
 
     def get_content(self, results):

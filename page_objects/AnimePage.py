@@ -11,5 +11,4 @@ class Anime:
         for element in elements:
             episode = element.get_attribute('href')
             episode_list.append(episode)
-        print(episode_list)
         return episode_list

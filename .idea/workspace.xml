@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203b1478-77b6-4888-a753-2a5b8c4f8d53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/page_objects/AllAnimesPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/SearchAnimes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/AnimePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/AnimePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_objects/SearchPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/SearchPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/ListarZip.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/ListarZip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/SearchAnime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/ZippysharePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/ZippysharePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DownloadAnime.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/DownloadAnime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/SearchAnimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/SearchAnimes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webdriver/Driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/Driver.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SearchAnimes">
+  <component name="RunManager" selected="Python.DownloadAnime">
     <configuration name="DownloadAnime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AnimeDownloader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ListarZip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DownloadZip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AnimeDownloader" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +85,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/ListarZip.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/DownloadZip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SearchPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ZippysharePage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AnimeDownloader" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,7 +148,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Aleksander\PycharmProjects\AnimeDownloader\page_objects\AllAnimesPage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_objects/ZippysharePage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DownloadAnime" />
+        <item itemvalue="Python.ZippysharePage" />
+        <item itemvalue="Python.DownloadZip" />
         <item itemvalue="Python.SearchAnimes" />
         <item itemvalue="Python.SearchAnime" />
-        <item itemvalue="Python.SearchPage" />
-        <item itemvalue="Python.DownloadAnime" />
-        <item itemvalue="Python.ListarZip" />
       </list>
     </recent_temporary>
   </component>
