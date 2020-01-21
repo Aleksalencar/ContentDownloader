@@ -3,7 +3,7 @@ from page_objects import ZippysharePage as zip
 from page_objects import AnimePage as anime
 from page_objects import SearchPage as search
 
-d = Driver.Driver()
+d = Driver.Driver('D:\Downloads\Chrome')
 s = search.Search(d.driver)
 
 def donwload_zippy(ad):

@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203b1478-77b6-4888-a753-2a5b8c4f8d53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/PathTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/AnimePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/AnimePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/SearchPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/SearchPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/ZippysharePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/ZippysharePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/DownloadAnime.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/DownloadAnime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/SearchAnimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/SearchAnimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DownloadZip.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/DownloadZip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste].py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webdriver/Driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/Driver.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SearchAnime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ListarZip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AnimeDownloader" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/SearchAnime.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/ListarZip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SearchAnimes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PathTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AnimeDownloader" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +126,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/SearchAnimes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/PathTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,10 +159,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.DownloadAnime" />
-        <item itemvalue="Python.ZippysharePage" />
         <item itemvalue="Python.DownloadZip" />
-        <item itemvalue="Python.SearchAnimes" />
-        <item itemvalue="Python.SearchAnime" />
+        <item itemvalue="Python.ListarZip" />
+        <item itemvalue="Python.PathTest" />
+        <item itemvalue="Python.ZippysharePage" />
       </list>
     </recent_temporary>
   </component>
