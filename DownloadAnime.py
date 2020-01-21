@@ -31,14 +31,14 @@ def selection(anime_list):
     print("Selecione um indice: ")
     print('Digite "-1" para voltar')
     while(True):
-        choose = int(input())
-        if choose == -1:
-            search_for_anime()
-        elif choose > -1 and choose < len(anime_list):
-            return anime_list[choose]
-        else:
-            print('Escolha invalida!')
-
+        try:
+            choose = int(input())
+            if choose == -1:
+                search_for_anime()
+            else:
+                return anime_list[choose]
+        except:
+            print('Escolha invlida')
 
 
 
