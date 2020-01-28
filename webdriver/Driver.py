@@ -7,12 +7,14 @@ from selenium.webdriver.common.by import By as hue
 
 class Driver():
 
-    def __init__(self,d_path):
+    def __init__(self,d_path, minimized = False):
         root = os.path.dirname(os.path.abspath(__file__))
         path = root + "\\chromedriver.exe"
         if d_path is not None:
             options = self.configuration(d_path)
         self.driver = webdriver.Chrome(executable_path=path,chrome_options=options)
+        if minimized is True:
+            self.driver.minimize_window()
 
     def configuration(self,d_path):
         chromeOptions = webdriver.ChromeOptions()
