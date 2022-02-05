@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/scripts/DownloadAnime.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/DownloadAnime.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webdriver/Driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/Driver.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +26,12 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
@@ -36,19 +40,7 @@
       <recent name="C:\Users\Aleksander\PycharmProjects\AnimeDownloader" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.DownloadAnime">
+  <component name="RunManager" selected="Python.DownloadZip">
     <configuration name="DownloadAnime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AnimeDownloader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,14 +148,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DownloadAnime" />
         <item itemvalue="Python.DownloadZip" />
+        <item itemvalue="Python.ZippysharePage" />
+        <item itemvalue="Python.DownloadAnime" />
         <item itemvalue="Python.ListarZip" />
         <item itemvalue="Python.PathTest" />
-        <item itemvalue="Python.ZippysharePage" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -182,13 +175,30 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1608243385974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-465.1080.1880@0.0.1920.1040" timestamp="1608243385974" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1608243385974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-465.1080.1880@0.0.1920.1040" timestamp="1608243385974" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1608243385974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-465.1080.1880@0.0.1920.1040" timestamp="1608243385974" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1608243385974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-465.1080.1880@0.0.1920.1040" timestamp="1608243385974" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

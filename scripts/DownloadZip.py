@@ -1,10 +1,9 @@
 from selenium import webdriver
-f
 from page_objects import ZippysharePage as zip
 
 
 def donwload_zippy(ad):
-    z = zip.Zippysahare(d)
+    z = zip.Zippysahare(ad)
     z.download(ad)
     pass
 
